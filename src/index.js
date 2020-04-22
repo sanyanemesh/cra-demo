@@ -1,11 +1,8 @@
 import React from 'react';
-
- function App() {
-   return (
-     <div className="App">
-       <h1>Hello world!</h1>
-     </div>
-   );
- }
-
- export default App;
+import ReactDOM from 'react-dom';
+import App from './App';
+  
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
